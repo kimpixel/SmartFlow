@@ -264,7 +264,7 @@
       "_postman_id": "619b4c61-8bc2-a0d5-d3b7-2f9bee2f88a3",
       "name": "Core Workflow List",
       "request": {
-        "url": "http://otto.smartflow.local/core/workflow",
+        "url": "{{domain}}/core/workflow",
         "method": "GET",
         "header": [],
         "body": {
