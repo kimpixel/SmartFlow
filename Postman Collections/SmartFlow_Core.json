@@ -150,7 +150,7 @@
           "_postman_id": "89b06bad-b761-9c96-7b38-5722a0f0fd9f",
           "name": "Login - WorkflowOwner",
           "request": {
-            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.WorkflowOwner@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:WorkflowOwner",
+            "url": "{{domain}}/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.WorkflowOwner@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:WorkflowOwner",
             "method": "POST",
             "header": [],
             "body": {
