@@ -210,7 +210,7 @@
           "_postman_id": "d3c4e7aa-a405-b324-e1ff-b477e9fcb990",
           "name": "Logout",
           "request": {
-            "url": "http://otto.smartflow.local/core/authentication/logout",
+            "url": "{{domain}}/core/authentication/logout",
             "method": "GET",
             "header": [],
             "body": {
