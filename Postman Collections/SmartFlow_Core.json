@@ -247,7 +247,7 @@
           "_postman_id": "3dc6b384-7714-ad44-5e69-5be6ef2da93c",
           "name": "Unique Email Validator",
           "request": {
-            "url": "http://otto.smartflow.local/core/user/emailUnique/",
+            "url": "{{domain}}/core/user/emailUnique/",
             "method": "POST",
             "header": [],
             "body": {
