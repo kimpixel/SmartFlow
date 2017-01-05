@@ -61,7 +61,7 @@
           "_postman_id": "a3a922db-3125-f9c3-fd1f-f88eedce7fb1",
           "name": "User Create",
           "request": {
-            "url": "http://otto.smartflow.local/core/user?user[firstName]=Max&user[lastName]=Musterman&user[gender]=transsexual&user[title]=Dr. Dr. Prof&user[email]=gg.musterman@aol.de&user[role]=Administrator",
+            "url": "{{domain}}/core/user?user[firstName]=Max&user[lastName]=Musterman&user[gender]=transsexual&user[title]=Dr. Dr. Prof&user[email]=gg.musterman@aol.de&user[role]=Administrator",
             "method": "POST",
             "header": [],
             "body": {
