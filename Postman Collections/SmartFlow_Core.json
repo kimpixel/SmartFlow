@@ -195,7 +195,7 @@
           "_postman_id": "5d51ece5-d076-f7fd-6b54-a0fc58ab816e",
           "name": "IsAuthenticated",
           "request": {
-            "url": "http://otto.smartflow.local/core/authentication/isAuthenticated",
+            "url": "{{domain}}/core/authentication/isAuthenticated",
             "method": "GET",
             "header": [],
             "body": {
