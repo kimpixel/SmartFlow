@@ -172,7 +172,14 @@
                 "exec": [
                   "",
                   "var jsonData = JSON.parse(responseBody);",
-                  "tests[\"Login as admin succes\"] = jsonData.success === true;"
+                  "",
+                  "tests[\"Status code is 200\"] = responseCode.code === 200;",
+                  "tests[\"Login success output\"] = jsonData.success === true;",
+                  "tests[\"is return user uuid\"] = jsonData.user.uuid === \"fb6b5e15-bea2-4242-85e1-1b16187fe291\";",
+                  "",
+                  "",
+                  "",
+                  ""
                 ]
               }
             }
