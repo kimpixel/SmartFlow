@@ -76,7 +76,7 @@
           "_postman_id": "1ee86283-36c3-819e-0b99-681c87ec7891",
           "name": "User Delete",
           "request": {
-            "url": "http://otto.smartflow.local/core/user/f58740d3-d2f6-4b78-bbfd-69e3e77fbc22",
+            "url": "{{domain}}/core/user/f58740d3-d2f6-4b78-bbfd-69e3e77fbc22",
             "method": "DELETE",
             "header": [],
             "body": {
