@@ -46,7 +46,7 @@
           "_postman_id": "a38c0fe6-7541-78f0-2f2e-3a9014a839b5",
           "name": "User Update",
           "request": {
-            "url": "http://otto.smartflow.local/core/user/d5d63090-7dc5-468a-93fb-60db98d025c2?user[firstName]=Max&user[lastName]=Musterman 12345&user[passwordDto][password]=Diu.SmartFlow.Core:WorkflowOwner&user[passwordDto][passwordConfirmation]=Diu.SmartFlow.Core:WorkflowOwner",
+            "url": "{{domain}}/core/user/d5d63090-7dc5-468a-93fb-60db98d025c2?user[firstName]=Max&user[lastName]=Musterman 12345&user[passwordDto][password]=Diu.SmartFlow.Core:WorkflowOwner&user[passwordDto][passwordConfirmation]=Diu.SmartFlow.Core:WorkflowOwner",
             "method": "PUT",
             "header": [],
             "body": {
