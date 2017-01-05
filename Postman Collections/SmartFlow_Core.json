@@ -180,7 +180,7 @@
             }
           ],
           "request": {
-            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.Administrator@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:Administrator",
+            "url": "{{domain}}/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.Administrator@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:Administrator",
             "method": "POST",
             "header": [],
             "body": {
