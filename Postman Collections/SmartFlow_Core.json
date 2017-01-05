@@ -172,7 +172,7 @@
                 "exec": [
                   "",
                   "var jsonData = JSON.parse(responseBody);",
-                  "tests[\"Your test name\"] = jsonData.success === true;"
+                  "tests[\"Login as admin succes\"] = jsonData.success === true;"
                 ]
               }
             }
