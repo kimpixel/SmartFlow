@@ -135,7 +135,7 @@
           "_postman_id": "e17afa6c-622a-10d9-bd00-a9ffd7f3db13",
           "name": "Login - TaskContributor",
           "request": {
-            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.TaskContributor@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:TaskContributor",
+            "url": "{{domain}}/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.TaskContributor@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:TaskContributor",
             "method": "POST",
             "header": [],
             "body": {
