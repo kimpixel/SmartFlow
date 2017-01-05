@@ -1,0 +1,264 @@
+{
+  "variables": [],
+  "info": {
+    "name": "SmartFlow Core",
+    "_postman_id": "859cb27a-00cb-a0e2-8944-be74e2e48e66",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "561f2f13-7c14-4150-323c-dcccb171ef4e",
+      "name": "UserControler",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "cfdd3c39-c2b0-64d4-c548-05e072e4ca44",
+          "name": "User List",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "37d5ea25-c2a0-faf3-1d0c-9b4100bd343d",
+          "name": "User Show",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user/d5d63090-7dc5-468a-93fb-60db98d025c2",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a38c0fe6-7541-78f0-2f2e-3a9014a839b5",
+          "name": "User Update",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user/d5d63090-7dc5-468a-93fb-60db98d025c2?user[firstName]=Max&user[lastName]=Musterman 12345&user[passwordDto][password]=Diu.SmartFlow.Core:WorkflowOwner&user[passwordDto][passwordConfirmation]=Diu.SmartFlow.Core:WorkflowOwner",
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a3a922db-3125-f9c3-fd1f-f88eedce7fb1",
+          "name": "User Create",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user?user[firstName]=Max&user[lastName]=Musterman&user[gender]=transsexual&user[title]=Dr. Dr. Prof&user[email]=gg.musterman@aol.de&user[role]=Administrator",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "1ee86283-36c3-819e-0b99-681c87ec7891",
+          "name": "User Delete",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user/f58740d3-d2f6-4b78-bbfd-69e3e77fbc22",
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "82cecd01-7174-ab6d-17b3-a68864494d74",
+      "name": "ProfileControler",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "2862b6df-1898-9636-239b-f88c802064cd",
+          "name": "Profile Show",
+          "request": {
+            "url": "http://otto.smartflow.local/core/profile/d5d63090-7dc5-468a-93fb-60db98d025c2",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "b656bf0c-2159-fa2a-1feb-33519fe89e2d",
+          "name": "Profile Update",
+          "request": {
+            "url": "http://otto.smartflow.local/core/profile/7a6eb747-0071-41f7-8090-2c1d776fef4a?user[firstName]=Max&user[lastName]=Musterman 12345&user[email]=test2@gmail.com",
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "871d7596-c3be-c634-5921-179de155fdc4",
+      "name": "Authentication",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "e17afa6c-622a-10d9-bd00-a9ffd7f3db13",
+          "name": "Login - TaskContributor",
+          "request": {
+            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.TaskContributor@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:TaskContributor",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "89b06bad-b761-9c96-7b38-5722a0f0fd9f",
+          "name": "Login - WorkflowOwner",
+          "request": {
+            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.WorkflowOwner@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:WorkflowOwner",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "6566f55c-4897-ce00-2306-3d7bdb8b1fde",
+          "name": "Login - Administrator",
+          "request": {
+            "url": "http://otto.smartflow.local/core/authentication/authenticate?__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]=SmartFlow.Core.Administrator@di-unternehmer.com&__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]=Diu.SmartFlow.Core:Administrator",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "5d51ece5-d076-f7fd-6b54-a0fc58ab816e",
+          "name": "IsAuthenticated",
+          "request": {
+            "url": "http://otto.smartflow.local/core/authentication/isAuthenticated",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "d3c4e7aa-a405-b324-e1ff-b477e9fcb990",
+          "name": "Logout",
+          "request": {
+            "url": "http://otto.smartflow.local/core/authentication/logout",
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "d5da3270-5b73-1cfa-8fea-b39399ba66c1",
+      "name": "Registration / Activation",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "3f3295b3-916d-e85a-646f-ee621b91cd33",
+          "name": "Activate with Password",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user/activateaccount/5yvbza7zsc3sj1b1ahljpvlapz75oo?passwordDto[password]=test123&passwordDto[passwordConfirmation]=test123",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "3dc6b384-7714-ad44-5e69-5be6ef2da93c",
+          "name": "Unique Email Validator",
+          "request": {
+            "url": "http://otto.smartflow.local/core/user/emailUnique/",
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "619b4c61-8bc2-a0d5-d3b7-2f9bee2f88a3",
+      "name": "Core Workflow List",
+      "request": {
+        "url": "http://otto.smartflow.local/core/workflow",
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
+}
