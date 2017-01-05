@@ -232,7 +232,7 @@
           "_postman_id": "3f3295b3-916d-e85a-646f-ee621b91cd33",
           "name": "Activate with Password",
           "request": {
-            "url": "http://otto.smartflow.local/core/user/activateaccount/5yvbza7zsc3sj1b1ahljpvlapz75oo?passwordDto[password]=test123&passwordDto[passwordConfirmation]=test123",
+            "url": "{{domain}}/core/user/activateaccount/5yvbza7zsc3sj1b1ahljpvlapz75oo?passwordDto[password]=test123&passwordDto[passwordConfirmation]=test123",
             "method": "POST",
             "header": [],
             "body": {
