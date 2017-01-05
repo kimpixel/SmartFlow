@@ -16,7 +16,7 @@
           "_postman_id": "cfdd3c39-c2b0-64d4-c548-05e072e4ca44",
           "name": "User List",
           "request": {
-            "url": "http://otto.smartflow.local/core/user",
+            "url": "{{domain}}/core/user",
             "method": "GET",
             "header": [],
             "body": {
