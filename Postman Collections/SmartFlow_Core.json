@@ -98,7 +98,7 @@
           "_postman_id": "2862b6df-1898-9636-239b-f88c802064cd",
           "name": "Profile Show",
           "request": {
-            "url": "http://otto.smartflow.local/core/profile/d5d63090-7dc5-468a-93fb-60db98d025c2",
+            "url": "{{domain}}/core/profile/d5d63090-7dc5-468a-93fb-60db98d025c2",
             "method": "GET",
             "header": [],
             "body": {
