@@ -113,7 +113,7 @@
           "_postman_id": "b656bf0c-2159-fa2a-1feb-33519fe89e2d",
           "name": "Profile Update",
           "request": {
-            "url": "http://otto.smartflow.local/core/profile/7a6eb747-0071-41f7-8090-2c1d776fef4a?user[firstName]=Max&user[lastName]=Musterman 12345&user[email]=test2@gmail.com",
+            "url": "{{domain}}/core/profile/7a6eb747-0071-41f7-8090-2c1d776fef4a?user[firstName]=Max&user[lastName]=Musterman 12345&user[email]=test2@gmail.com",
             "method": "PUT",
             "header": [],
             "body": {
