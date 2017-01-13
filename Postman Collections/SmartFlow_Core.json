@@ -6,21 +6,5 @@
     "description": "",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": [
-    {
-      "_postman_id": "723ec43c-7a62-bdcf-8aea-9f9e62dcfae3",
-      "name": "User Show (jsonapi)",
-      "request": {
-        "url": "{{domain}}/core/user/d5d63090-7dc5-468a-93fb-60db98d025c2?include=workflows.name&fields[user]=first_name&sort=firstName&page[offset]=10&dada=xx",
-        "method": "GET",
-        "header": [],
-        "body": {
-          "mode": "formdata",
-          "formdata": []
-        },
-        "description": ""
-      },
-      "response": []
-    }
-  ]
+  "item": []
 }
