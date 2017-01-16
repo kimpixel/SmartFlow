@@ -6,5 +6,21 @@
     "description": "",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": []
+  "item": [
+    {
+      "_postman_id": "5554dc93-3f4c-a634-a425-3b3b3c9426a1",
+      "name": "User List (jsonapi)",
+      "request": {
+        "url": "{{domain}}/core/user?include=workflows&fields[user]=lastName",
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": []
+        },
+        "description": ""
+      },
+      "response": []
+    }
+  ]
 }
